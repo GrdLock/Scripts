@@ -8,8 +8,8 @@
 # Do not remove the quotation marks :
 #
 # Directory for the log
-DATE_TIME_UNDERLINE=$(date +%d"-"%m"-"%y"_"%H"-"%M)
-DATE_TIME_PIPE=$(date +%d"-"%m"-"%y"|"%H"-"%M)
+DATE_TIME_UNDERLINE=$(date +%d"-"%m"-"%y"_"%H":"%M)
+DATE_TIME_PIPE=$(date +%d"-"%m"-"%y"|"%H":"%M)
 log="/var/log/sonicwall_bkp.log"
 # User Sonicwall | IF YOU CHANGES IN THE NAME OF ADMIN SYSTEM> PREFERENCES CHANGE THE VARIABLE LOGIN
 login="admin"

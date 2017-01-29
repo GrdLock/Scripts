@@ -1,9 +1,5 @@
 #!/usr/bin/expect
 
-# Usage:
-
-# powerconnectbackup.sh <tftp server> <switch IP> <username> <password> <enable password if needed>
-
 set timeout 60
 set tftp [lindex $argv 0]
 set name [lindex $argv 1]
